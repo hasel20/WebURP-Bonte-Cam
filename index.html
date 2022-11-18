@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <script type="text/javascript" src="./Native/unity-webgl-tools.js"></script>
+    <script type="text/javascript" src="./Native/microphone.js"></script>
+    <script type="text/javascript" src="./Native/AvatarInfo.js"></script>
+    <script type="text/javascript" src="./Native/MetaverseInfo.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>HN-C2E-Project</title>
+    <title>C2E</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -25,15 +29,15 @@
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebURP-Bonte-04.loader.js";
+      const loaderUrl = buildUrl + "/PhotonSandbox.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebURP-Bonte-04.data.unityweb",
-        frameworkUrl: buildUrl + "/WebURP-Bonte-04.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebURP-Bonte-04.wasm.unityweb",
+        dataUrl: buildUrl + "/PhotonSandbox.data.unityweb",
+        frameworkUrl: buildUrl + "/PhotonSandbox.framework.js.unityweb",
+        codeUrl: buildUrl + "/PhotonSandbox.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Sharebox",
-        productName: "HN-C2E-Project",
-        productVersion: ".3",
+        productName: "C2E",
+        productVersion: "0.1",
       };
 
       const container = document.querySelector("#unity-container");
